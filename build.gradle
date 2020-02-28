@@ -18,6 +18,8 @@ repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+
+    maven { url 'https://uk-taniyama.github.io/maven/'}
 }
 
 group = 'jp.gr.java_conf.uk'
@@ -32,6 +34,8 @@ dependencies {
 
     // Use JUnit Jupiter Engine for testing.
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
+
+    implementation 'jp.gr.java_conf.uk:java-library:0.0.0-SNAPSHOT'
 }
 
 java {

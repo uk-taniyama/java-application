@@ -5,6 +5,8 @@ package jp.gr.java_conf.uk;
 
 public class App {
     public String getGreeting() {
+        Library library = new Library();
+        library.someLibraryMethod();
         return "Hello world.";
     }
 
